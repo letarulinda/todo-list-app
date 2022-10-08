@@ -3,18 +3,6 @@ import { clearAll } from './script.js';
 import taskCompleted from './script.js';
 import './style.css';
 
-// const myContainer = document.getElementById('to-do-list');
-// tasks.forEach((item) => {
-// 	myContainer.innerHTML += `
-// 	<ul class='list-container'>
-// 		<li class='list-items'>
-// 		<input type="checkbox" id="check">
-// 		${item.description}
-// 		</li>
-// 	</ul>
-// `;
-// });
-
 myContainer.innerHTML += `
 <div class='footer-list'>
 	<a href='#' class='footer-a'>Clear all completed</a>
